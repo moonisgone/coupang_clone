@@ -1,0 +1,181 @@
+html,
+body,
+ul,
+ol,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: auto;
+  width: 1024px;
+  height: 100%;
+}
+
+.header_nav_box {
+  justify-content: space-between;
+}
+
+/* 메인페이지 CSS */
+/* width:vw */
+.header_nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: lightgray;
+}
+
+.header_nav_menu1_item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.main_nav {
+  display: flex;
+  margin-top: 30px;
+  height: 115px;
+}
+
+.header_nav_menu1 {
+  display: flex;
+  font-size: 12px;
+}
+
+/* 여기는 상세보기 페이지 */
+.header_nav_menu2 {
+  display: flex;
+  font-size: 12px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 115px;
+  height: 100%;
+  text-align: center;
+  background-color: rgb(66, 133, 244);
+}
+
+.fa-bars {
+  font-size: 30px;
+  color: white;
+}
+
+.category_name {
+  color: white;
+}
+
+.right_box {
+  width: 909px;
+}
+
+.main_logo {
+  display: flex;
+}
+
+.main_logo > img {
+  width: 174px;
+  height: 41px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.main_logo > a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.main_logo > i {
+  font-size: 30px;
+}
+
+.person_a {
+  margin-top: 30px;
+}
+
+.person_a >span{
+  margin-top: 5px;
+}
+
+.cart_a {
+  padding: 0px;
+  margin-top: 22px;
+}
+.cart {
+  margin-top: 3px;
+}
+
+.main_logo > img {
+  padding-bottom: 5px;
+}
+
+.main_logo > a > span {
+  font-size: 12px;
+}
+
+.search_form {
+  margin-top: 28px;
+  margin-left: 20px;
+  border: 2px solid lightsteelblue;
+  height: 44px;
+  width: 510px;
+}
+
+.search_form > select,
+input {
+  height: 100%;
+  outline: none;
+  border: none;
+}
+.search_form > select {
+  margin-left: 10px;
+}
+.search_form > input {
+  width: 310px;
+}
+
+.fa-border-center-v {
+  height: 20px;
+  width: 5px;
+  color: blue;
+}
+
+.fa-microphone {
+  margin-right: 5px;
+}
+.fa-search {
+  padding: 10px;
+  color: lightsteelblue;
+}
+
+.delivery_menu {
+  margin-left: 30px;
+  display: flex;
+}
+
+.delivery_menu_item {
+  padding: 15px;
+  font-size: 12px;
+}
